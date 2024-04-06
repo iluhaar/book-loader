@@ -3,7 +3,11 @@ const axios = require("axios");
 
 const urls = [];
 
-fs.mkdirSync("out");
+const directory = "out";
+
+if (!fs.existsSync(directory)) {
+  fs.mkdirSync("out");
+}
 
 for (const url of urls) {
   axios
