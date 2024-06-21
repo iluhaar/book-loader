@@ -1,3 +1,9 @@
 /node_modules
 
 /out
+
+path/*
+!path/.gitignore
+
+media/*
+!media/.gitignore
