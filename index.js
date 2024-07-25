@@ -118,8 +118,3 @@ Promise.all(bookPromises)
   .catch((err) => {
     console.error("An error occurred while downloading files:", err);
   });
-
-// Workaround at knigavuhe
-// will return array of the book urls
-// cur.bookPlayer.playlist.map((i) => i.url);
-// https://knigavuhe.org/book/doktor-danilov-v-morge-ili-neverojatnye-budni-patologoanatoma/ - latest downloaded book
