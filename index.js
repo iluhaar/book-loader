@@ -103,6 +103,7 @@ Promise.all(bookPromises)
         .replaceAll(",", "")
         .replace("!", "");
 
+      // depending on audio file provider we need to add .mp3
       const path = `${directory}/${filename}`;
 
       fs.writeFileSync(path, data);
