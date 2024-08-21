@@ -9,4 +9,4 @@ const urls = [];
 
 - Run `node index.js`
 - Wait till the app ends their work
-- open `out` folder
+- open `media` folder
